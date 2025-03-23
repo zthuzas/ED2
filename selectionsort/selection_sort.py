@@ -1,6 +1,5 @@
 def selection_sort(arr):
     n = len(arr)
-    
     for i in range(n - 1):
         posicao = i
         for j in range(i + 1, n):
@@ -8,12 +7,10 @@ def selection_sort(arr):
                 posicao = j
         arr[i], arr[posicao] = arr[posicao], arr[i]  
 
-arr = [40, 1, 23, 20, 67, 44, 9, 18, 0, 99]
+arr = [23, 9, 8, 11, 13, 55, 4, 41, 12, 33]
 
 print("Vetor antes de ordenar:")
 print(arr)
-
 selection_sort(arr)
-
 print("\nVetor depois de ordenar com Selection Sort:")
 print(arr)
