@@ -9,4 +9,6 @@ O Insertion Sort é um algoritmo de ordenação que constrói a lista ordenada u
 
 ### Versão otimizada:
 
+![image](https://github.com/user-attachments/assets/ff35b400-c47d-4223-b5cf-e7bae3afcc5d)
 
+.
